@@ -219,7 +219,7 @@ House.prototype =
 		if (numbers % 24 <= 3)
 		{
 			_remainder = numbers % 24;
-			_quotient = (numbers - _remainder) / 24;
+			_quotient = (numbers - _remainder) / 24 % 8;
 		}
 		else
 		{
