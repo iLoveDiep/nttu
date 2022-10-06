@@ -220,16 +220,19 @@ House.prototype =
 		{
 			_remainder = numbers % 24;
 			_quotient = (numbers - _remainder) / 24 % 8;
+taiYi.innerText+=_remainder
+taiYi.innerText+=_quotient
 		}
 		else
 		{
 			_remainder = (numbers % 24) % 3;
 			_quotient = ((numbers % 24) - _remainder) / 3;
-		}
-		if (_remainder == 0)
-		{
-			_quotient -= 1;
-			_remainder = 3;
+
+                        if (_remainder == 0)
+		        {
+			        _quotient -= 1;
+			        _remainder = 3;
+		        }
 		}
 		if (localStorage.getItem("_yinYangEscape") == "yang")
 		{
