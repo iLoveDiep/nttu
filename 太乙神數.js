@@ -220,8 +220,6 @@ House.prototype =
 		{
 			_remainder = numbers % 24;
 			_quotient = (numbers - _remainder) / 24 % 8;
-taiYi.innerText+=_remainder
-taiYi.innerText+=_quotient
 		}
 		else
 		{
