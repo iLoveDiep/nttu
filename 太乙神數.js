@@ -446,7 +446,7 @@ House.prototype =
 		}
 	},
 	checkChenJi : function ()
-	{
+	{chenJi.innerText+=numbers;
 		var _chenJi;
 		var _orderOfEarthlyBranch = [7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6];
 		var _remainder = (numbers + 250) % 360 % 36 % 3;
