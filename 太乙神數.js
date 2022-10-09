@@ -457,6 +457,7 @@ House.prototype =
 			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
+chenJi.innerText+=_quotient
 		
 		_chenJi = _orderOfEarthlyBranch[_quotient];
 		
