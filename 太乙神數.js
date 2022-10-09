@@ -228,7 +228,7 @@ House.prototype =
 
                         if (_remainder == 0)
 		        {
-			        _quotient -= 1;
+			        _quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			        _remainder = 3;
 		        }
 		}
@@ -418,7 +418,7 @@ House.prototype =
 
                         if (_remainder == 0)
 		        {
-			        _quotient -= 1;
+			        _quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			        _remainder = 30;
 		        }
 		}
@@ -454,7 +454,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -507,7 +507,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 45;
 		}
 		
@@ -542,7 +542,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 36;
 		}
 		
@@ -585,7 +585,7 @@ House.prototype =
 		}
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -620,7 +620,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -655,7 +655,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -690,7 +690,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -725,7 +725,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -760,7 +760,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 3;
 		}
 		
@@ -795,7 +795,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 13;
 		}
 		
@@ -830,7 +830,7 @@ House.prototype =
 		
 		if (_remainder == 0)
 		{
-			_quotient -= 1;
+			_quotient =（_quotient == 0) ? 0 : _quotient - 1;
 			_remainder = 24;
 		}
 		
