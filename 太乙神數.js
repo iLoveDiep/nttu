@@ -409,17 +409,18 @@ House.prototype =
 		if ((numbers + 250) % 360 > 30)
 		{
 			_remainder = (numbers + 250) % 360 % 30;
-			_quotient = ((numbers + 250) % 360 - _remainder) / 30;
+			_quotient = ((numbers + 250) % 360 - _remainder) / 30 % 12;
 		}
 		else
 		{
 			_remainder = (numbers + 250) % 360;
 			_quotient = (numbers + 250 - _remainder) / 360;
-		}
-		if (_remainder == 0)
-		{
-			_quotient -= 1;
-			_remainder = 30;
+
+                        if (_remainder == 0)
+		        {
+			        _quotient -= 1;
+			        _remainder = 30;
+		        }
 		}
 		
 		_junJi = _orderOfEarthlyBranch[_quotient];
